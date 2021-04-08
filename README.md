@@ -1,4 +1,4 @@
-# capstone-uav-2020.github.io
+# Capstone Project 2020-2021
 
 This is a project made for the final year Capstone course at Ontario Tech University during the academic year of 2020-2021.
 
