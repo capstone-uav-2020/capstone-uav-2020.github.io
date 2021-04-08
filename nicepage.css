@@ -16504,6 +16504,7 @@ div.u-video,
 }
 .u-enable-responsive.u-offcanvas .u-sidenav {
   height: 100vh;
+  height: -webkit-fill-available;
   transition: margin-left 500ms ease;
   border-top: none;
   border-bottom: none;
@@ -16535,6 +16536,7 @@ div.u-video,
   display: block;
   flex-basis: 100%;
   height: 100vh;
+  height: -webkit-fill-available;
   border: none !important;
 }
 .u-enable-responsive:not(.u-offcanvas) .u-menu-overlay {
@@ -16544,6 +16546,7 @@ div.u-video,
   display: none;
   width: 100%;
   height: 100vh;
+  height: -webkit-fill-available;
 }
 .u-menu-overlay:not(.u-opacity) {
   opacity: 0;
@@ -18009,15 +18012,18 @@ a.pswp__share--download:hover {
   display: flex;
   position: relative;
 }
+.u-list:not(.u-repeater),
 .u-blog:not(.u-repeater),
 .u-products:not(.u-repeater) {
   display: flex;
   flex-direction: column;
 }
+.u-list:not(.u-repeater) .u-repeater,
 .u-blog:not(.u-repeater) .u-repeater,
 .u-products:not(.u-repeater) .u-repeater {
   flex: 1;
 }
+.u-list:not(.u-repeater) .u-list-control,
 .u-blog:not(.u-repeater) .u-list-control,
 .u-products:not(.u-repeater) .u-list-control {
   flex: 0;
@@ -18063,6 +18069,7 @@ a.pswp__share--download:hover {
   padding-left: 0;
 }
 .u-custom-list li {
+  position: relative;
   margin-left: 1.4em;
 }
 .u-custom-list .u-list-icon {
@@ -18071,7 +18078,7 @@ a.pswp__share--download:hover {
   width: 1em;
   min-height: 1em;
   height: auto;
-  left: 0.1em;
+  left: -1.5em;
   fill: currentColor;
   text-align: center;
 }
@@ -18736,6 +18743,7 @@ a.pswp__share--download:hover {
   display: inline-block;
   height: 65px;
   width: 65px;
+  z-index: 2;
 }
 .u-carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
