@@ -32451,7 +32451,12 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
   }
 }
-
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: auto;
+    height: auto;
+  }
+}
 .u-footer .u-sheet-1 {
   min-height: 133px;
 }
